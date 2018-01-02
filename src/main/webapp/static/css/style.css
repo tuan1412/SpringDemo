@@ -1,0 +1,47 @@
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	padding: 3px
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+img {
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-top: 4px;
+	margin-left: 4px;
+	width: 70px;
+	height: 34px;
+}
+
+ul.nav>li {
+	float: right;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+.jumbotron {
+	background-color: green;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white; 
+}
